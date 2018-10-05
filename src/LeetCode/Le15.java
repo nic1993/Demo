@@ -45,7 +45,6 @@ public class Le15 {
 		    
 		     while (pre < last) {
 
-		    	 
 				if(pre == i){
 					pre++;
 					continue;
