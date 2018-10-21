@@ -7,16 +7,16 @@ import java.util.List;
 
 public class Le15 {
 	
-//	public static void main(String[] args) {
-//		int[] nums = {-1, 0, 1, 2, -1, -4};
-//		List<List<Integer>> list = threeSum(nums);
-//		for(List<Integer> result : list){
-//			for(Integer integer : result){
-//				System.out.print(integer + " ");
-//			}
-//			System.out.println();
-//		}
-//	}
+	public static void main(String[] args) {
+		int[] nums = {1,2,3,4,5};
+		List<List<Integer>> list = threeSum(nums,10);
+		for(List<Integer> result : list){
+			for(Integer integer : result){
+				System.out.print(integer + " ");
+			}
+			System.out.println();
+		}
+	}
 
 	 public static List<List<Integer>> threeSum(int[] nums,int target) {
 		 List<List<Integer>> list = new ArrayList<>();
@@ -81,7 +81,7 @@ public class Le15 {
 				}
 			}
 		 }
-		 
+
 		 return list;
 	 }
 }
